@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Writing Portfolio</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .navbar-custom {
+            background-color: #6c757d;
+        }
+        .footer {
+            background-color: #f8f9fa;
+            padding: 20px 0;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-custom">
+        <a class="navbar-brand text-white" href="#">My Writing Portfolio</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#bio">Bio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#writing">Writing</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Bio Section -->
+    <section id="bio" class="py-5">
+        <div class="container">
+            <h2 class="text-center">About Me</h2>
+            <p class="text-center">[Your bio goes here. Talk about your background, writing experience, and any other relevant information.]</p>
+        </div>
+    </section>
+
+    <!-- Writing Section -->
+    <section id="writing" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center">My Writing</h2>
+            <div class="row">
+                <!-- Writing Sample 1 -->
+                <div class="col-md-6 mb-4">
+                    <div class="card shadow-sm">
+                        <div class="card-body">
+                            <h5 class="card-title">Title of Your Work 1</h5>
+                            <p class="card-text">Brief description of your work. This is a sample of what you can write.</p>
+                            <p class="card-text"><strong>Extract:</strong> A brief extract from the document goes here...</p>
+                            <a href="path/to/italian_document1.pdf" class="btn btn-primary">Download PDF (Italian)</a>
+                            <a href="path/to/english_document1.pdf" class="btn btn-secondary">Download PDF (English)</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Writing Sample 2 -->
+                <div class="col-md-6 mb-4">
+                    <div class="card shadow-sm">
+                        <div class="card-body">
+                            <h5 class="card-title">Title of Your Work 2</h5>
+                            <p class="card-text">Brief description of your work. This is a sample of what you can write.</p>
+                            <p class="card-text"><strong>Extract:</strong> A brief extract from the document goes here...</p>
+                            <a href="path/to/italian_document2.pdf" class="btn btn-primary">Download PDF (Italian)</a>
+                            <a href="path/to/english_document2.pdf" class="btn btn-secondary">Download PDF (English)</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Writing Sample 3 -->
+                <div class="col-md-6 mb-4">
+                    <div class="card shadow-sm">
+                        <div class="card-body">
+                            <h5 class="card-title">Title of Your Work 3</h5>
+                            <p class="card-text">Brief description of your work. This is a sample of what you can write.</p>
+                            <p class="card-text"><strong>Extract:</strong> A brief extract from the document goes here...</p>
+                            <a href="path/to/italian_document3.pdf" class="btn btn-primary">Download PDF (Italian)</a>
+                            <a href="path/to/english_document3.pdf" class="btn btn-secondary">Download PDF (English)</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Writing Sample 4 -->
+                <div class="col-md-6 mb-4">
+                    <div class="card shadow-sm">
+                        <div class="card-body">
+                            <h5 class="card-title">Title of Your Work 4</h5>
+                            <p class="card-text">Brief description of your work. This is a sample of what you can write.</p>
+                            <p class="card-text"><strong>Extract:</strong> A brief extract from the document goes here...</p>
+                            <a href="path/to/italian_document4.pdf" class="btn btn-primary">Download PDF (Italian)</a>
+                            <a href="path/to/english_document4.pdf" class="btn btn-secondary">Download PDF (English)</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5">
+        <div class="container">
+            <h2 class="text-center">Contact Me</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" class="form-control" id="name" placeholder="Your name">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" class="form-control" id="email" placeholder="Your email">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea class="form-control" id="message" rows="4" placeholder="Your message"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 [Your Name]. All rights reserved.</p>
+            <p>Any reproduction, distribution, modification, transmission, republication, or other use of the content is prohibited without the express written permission of [Your Name].</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
