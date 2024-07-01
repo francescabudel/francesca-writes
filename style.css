@@ -1,74 +1,4 @@
 /* General Styles */
-
-.forum-regular {
-  font-family: "Forum", serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.cormorant-garamond-light {
-  font-family: "Cormorant Garamond", serif;
-  font-weight: 300;
-  font-style: normal;
-}
-
-.cormorant-garamond-regular {
-  font-family: "Cormorant Garamond", serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.cormorant-garamond-medium {
-  font-family: "Cormorant Garamond", serif;
-  font-weight: 500;
-  font-style: normal;
-}
-
-.cormorant-garamond-semibold {
-  font-family: "Cormorant Garamond", serif;
-  font-weight: 600;
-  font-style: normal;
-}
-
-.cormorant-garamond-bold {
-  font-family: "Cormorant Garamond", serif;
-  font-weight: 700;
-  font-style: normal;
-}
-
-.cormorant-garamond-light-italic {
-  font-family: "Cormorant Garamond", serif;
-  font-weight: 300;
-  font-style: italic;
-}
-
-.cormorant-garamond-regular-italic {
-  font-family: "Cormorant Garamond", serif;
-  font-weight: 400;
-  font-style: italic;
-}
-
-.cormorant-garamond-medium-italic {
-  font-family: "Cormorant Garamond", serif;
-  font-weight: 500;
-  font-style: italic;
-}
-
-.cormorant-garamond-semibold-italic {
-  font-family: "Cormorant Garamond", serif;
-  font-weight: 600;
-  font-style: italic;
-}
-
-.cormorant-garamond-bold-italic {
-  font-family: "Cormorant Garamond", serif;
-  font-weight: 700;
-  font-style: italic;
-}
-
-
-
-
 body {
     font-family: 'Forum', serif;
     color: #333;
@@ -77,7 +7,7 @@ body {
 }
 
 h2 {
-    font-family:"Cormorant Garamond", serif;
+    font-family: 'Cormorant Garamond', serif;
     font-size: 2.5rem;
     margin-bottom: 1rem;
 }
@@ -109,7 +39,7 @@ a:hover {
 }
 
 .navbar-brand {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Cormorant Garamond', serif;
     font-size: 1.5rem;
     color: #333;
 }
@@ -152,7 +82,7 @@ section h2 {
 }
 
 .card-title {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Cormorant Garamond', serif;
     font-size: 1.3rem;
     margin-bottom: 1rem;
 }
@@ -203,4 +133,3 @@ section h2 {
     font-size: 0.9rem;
     color: #666;
 }
-
