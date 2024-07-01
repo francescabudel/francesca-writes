@@ -9,5 +9,5 @@
 
 <hr>
 
-## All the creative and textual content available on this repository (and relative website) is protected by the following license: **[CC BY-NC-SA 4.0]( https://creativecommons.org/licenses/by-nc-sa/4.0/)**
+#### All the creative and textual content available on this repository (and relative website) is protected by the following license: **[CC BY-NC-SA 4.0]( https://creativecommons.org/licenses/by-nc-sa/4.0/)**
 
