@@ -34,18 +34,18 @@ a:hover {
 
 /* Navbar */
 .navbar-custom {
-    background-color: #f8f9fa;
+    background-color: #333;
     border-bottom: 1px solid #ddd;
 }
 
 .navbar-brand {
     font-family: 'Cormorant Garamond', serif;
     font-size: 1.5rem;
-    color: #333;
+    color: #f8f9fa;
 }
 
 .navbar-nav .nav-link {
-    color: #333;
+    color: #f8f9fa;
     font-size: 1rem;
 }
 
