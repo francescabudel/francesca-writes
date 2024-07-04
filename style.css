@@ -2,7 +2,7 @@
 body {
     font-family: 'Forum', serif;
     color: #f8f9fa;
-    background-color: #333;
+    background-color: #000; /* Dark background */
     line-height: 1.6;
 }
 
@@ -10,11 +10,13 @@ h2 {
     font-family: 'Cormorant Garamond', serif;
     font-size: 2.5rem;
     margin-bottom: 1rem;
+    color: #f8f9fa; /* White text */
 }
 
 p {
     margin-bottom: 1rem;
     font-size: 1.1rem;
+    color: #f8f9fa; /* White text */
 }
 
 a {
@@ -34,7 +36,7 @@ a:hover {
 
 /* Navbar */
 .navbar-custom {
-    background-color: #333;
+    background-color: #000; /* Dark background */
     border-bottom: 1px solid #ddd;
 }
 
@@ -57,11 +59,12 @@ a:hover {
 section h2 {
     text-align: center;
     margin-bottom: 2rem;
+    color: #f8f9fa; /* White text */
 }
 
 /* Bio Section */
 #bio {
-    background-color: #404040;
+    background-color: #101010; /* Slightly different dark background */
     padding: 4rem 0;
 }
 
@@ -69,15 +72,18 @@ section h2 {
     font-size: 1.2rem;
     max-width: 700px;
     margin: 0 auto;
+    color: #f8f9fa; /* White text */
 }
 
 /* Writing Section */
 #writing {
-    background-color: #333;
+    background-color: #000; /* Dark background */
     padding: 4rem 0;
 }
 
 .card {
+    background-color: #fff; /* White background */
+    color: #000; /* Black text */
     border: none;
 }
 
@@ -85,11 +91,12 @@ section h2 {
     font-family: 'Cormorant Garamond', serif;
     font-size: 1.3rem;
     margin-bottom: 1rem;
+    color: #000; /* Black text */
 }
 
 .card-text {
     font-size: 1rem;
-    color: #cccccc;
+    color: #000; /* Black text */
 }
 
 .card-body {
@@ -98,11 +105,20 @@ section h2 {
 
 .card .btn {
     margin-top: 1rem;
+    text-decoration: underline; /* Underline */
+    background-color: transparent; /* No background color */
+    color: #000; /* Black text */
+    border: none;
+}
+
+.card .btn:hover {
+    text-decoration: overline; /* Overline on hover */
+    background-color: transparent; /* No background color on hover */
 }
 
 /* Contact Section */
 #contact {
-    background-color: #404040;
+    background-color: #101010; /* Slightly different dark background */
     padding: 4rem 0;
 }
 
@@ -111,19 +127,19 @@ section h2 {
 }
 
 #contact form .btn {
-    background-color: #333;
-    color: ##404040;
+    background-color: #000; /* Dark background */
+    color: #f8f9fa; /* White text */
     border: none;
     transition: background-color 0.3s;
 }
 
 #contact form .btn:hover {
-    background-color: #555;
+    background-color: #333; /* Slightly lighter dark background on hover */
 }
 
 /* Footer */
 .footer {
-    background-color: #333;
+    background-color: #000; /* Dark background */
     padding: 2rem 0;
     text-align: center;
 }
